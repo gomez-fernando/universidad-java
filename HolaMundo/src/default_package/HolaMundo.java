@@ -5,13 +5,12 @@ import java.util.Scanner;
 public class HolaMundo {
 
 	public static void main(String[] args) {
-		System.out.println("Escribe tu nombre: ");
-		Scanner consola = new Scanner(System.in);
-		var usuario = consola.nextLine();
-		System.out.println("usuario = " + usuario);
 		System.out.println("Escribe el título: ");
+		Scanner consola = new Scanner(System.in);
 		var titulo = consola.nextLine();
-		System.out.println("Resultado: " + titulo + " " + usuario);
+		System.out.println("Escribe el autor: ");
+		var autor = consola.nextLine();
+		System.out.println("Título del libro: " + titulo + ", autor: " + autor);
 
 	}
 
